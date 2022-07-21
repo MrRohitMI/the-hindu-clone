@@ -9,6 +9,8 @@ import { Flex,Select, Spacer,Box,Heading,ButtonGroup,Button, Popover,Text,
     PopoverAnchor, } from '@chakra-ui/react'
 import { Todayspaper,Opinion,Business,Sport,News,Entertainment,Science,Crossword} from './Navcomp'
 import Footer from "./Footer"
+import Login from "./Login"
+import {Link} from "react-router-dom"
 export default function Navbar(){
     return(
     <Box>
@@ -21,9 +23,9 @@ export default function Navbar(){
        <Entertainment/>
        <Crossword/>
        <Science/>
-       <Button bg="blue" color="white" fontSize={"13px"}>Get Trial</Button>
+       <Link to={'/gettrial'}><Button bg="blue" color="white" fontSize={"13px"}>Get Trial</Button></Link>
        <Button bg="yellow" color="black" fontSize={"13px"}>Subscribe Now</Button>
-       <Button color="blue" border="1px solid blue" fontSize={"13px"}>Log in</Button>
+       <Login/>
        </Flex>
        <Footer/>
     </Box>)
