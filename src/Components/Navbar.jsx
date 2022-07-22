@@ -14,7 +14,7 @@ import {Link} from "react-router-dom"
 export default function Navbar(){
     return(
     <Box>
-       <Flex w="76%" gap="10px">
+       <Flex w="100%" gap="10px">
        <Todayspaper/>
        <News/>
        <Opinion/>
@@ -27,7 +27,6 @@ export default function Navbar(){
        <Button bg="yellow" color="black" fontSize={"13px"}>Subscribe Now</Button>
        <Login/>
        </Flex>
-       <Footer/>
     </Box>)
     
 }

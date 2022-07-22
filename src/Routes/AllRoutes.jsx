@@ -1,10 +1,10 @@
 import {Routes,Route} from "react-router-dom"
 import { Gettrial } from "../Components/Gettrial"
-import Navbar from "../Components/Navbar"
+import Home from "../Components/Home"
 export default function AllRoutes(){
 
     return<Routes>
-        <Route path="/" element={<Navbar/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/gettrial" element={<Gettrial/>}/>
     </Routes>
 }

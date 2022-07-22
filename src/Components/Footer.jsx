@@ -12,7 +12,7 @@ import {
   } from '@chakra-ui/react'
   import '../App.css';
 export default function Footer(){
-    return<Box w="76%">
+    return<Box w="100%">
         <TableContainer>
   <Table variant='unstyled'>
     {/* <TableCaption>Imperial to metric conversion factors</TableCaption> */}
