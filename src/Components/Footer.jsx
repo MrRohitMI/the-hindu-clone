@@ -17,7 +17,7 @@ export default function Footer(){
   <Table variant='unstyled'>
     {/* <TableCaption>Imperial to metric conversion factors</TableCaption> */}
     <Thead>
-      <Tr>
+      <Tr borderTop="1px solid black">
         <Th w="450px" borderRight="1px dashed black" color="blue.700">TRENDING TODAY</Th>
         <Th w="250px" borderRight="1px dashed black" color="blue.700">TRENDING TOPIC</Th>
         <Th color="blue.700">TRENDING ON OUR GROUP SITES</Th>
